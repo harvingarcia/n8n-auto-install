@@ -1,4 +1,4 @@
-# 🚀 Instalador Automático de n8n
+# 🚀 Instalador Automático de N8N
 
 Este script permite instalar y configurar **n8n**, una herramienta de automatización de flujos de trabajo de código abierto, de manera rápida y sencilla en sistemas basados en Linux.
 

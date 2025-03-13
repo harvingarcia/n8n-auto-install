@@ -19,11 +19,13 @@ Sigue estos pasos para ejecutar el script:
    git clone https://github.com/harvingarcia/n8n-auto-install.git
    cd n8n-auto-install
 
-Asigna permisos de ejecución al script:
-chmod +x install_n8n.sh
+2. **Asigna permisos de ejecución al script:**
+   ```bash
+   chmod +x install_n8n.sh
 
-Ejecuta el script:
-./install_n8n.sh
+3. **Ejecuta el script:**
+   ```bash
+   ./install_n8n.sh
 
 
 🔍 ¿Qué hace este script?
@@ -38,9 +40,11 @@ Si deseas personalizar el despliegue, puedes modificar el archivo install_n8n.sh
 Puerto predeterminado (5678)
 Volumen de datos persistentes
 Configuraciones adicionales de Docker
+
 📝 Notas
 Si quieres que n8n arranque automáticamente después de un reinicio, revisa la configuración de docker-compose o systemd.
 Para desplegar en producción, considera habilitar HTTPS con un proxy inverso como Nginx o Traefik.
+
 📚 Referencias
 🌐 Página oficial de n8n: https://n8n.io/
 📖 Documentación de n8n: https://docs.n8n.io/
